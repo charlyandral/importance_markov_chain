@@ -219,7 +219,7 @@ def run(seed: int, n_dim: int, verbose=False) -> tuple[callable, Sampler]:
 
 def do_imh_imc(
     length: int,
-    dims: np.ndarray[int],
+    dims: list[int],
     seed: int,
     test_functions: dict[str, callable],
     test_functions_is: dict[str, callable],
